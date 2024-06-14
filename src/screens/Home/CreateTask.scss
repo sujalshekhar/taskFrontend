@@ -1,0 +1,66 @@
+.create-task-modal-container {
+
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .create-task-container {
+
+        width: 30%;
+
+        header {
+
+            h1 {
+
+            }
+
+        }
+
+        form {
+
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+
+            input[type="date"] {
+                    
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    padding: 1rem 0;
+            }
+
+            .select-dropdown {
+
+                width: 100%;
+                    
+                .select {
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }    
+            }
+
+            .button-container {
+                display: flex;
+                justify-content: space-between;
+                gap: 1rem;
+
+                .button {
+                    width: 48%;
+                    padding: 1rem 0;
+                    border: none;
+                    border-radius: 5px;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+    }
+
+}
